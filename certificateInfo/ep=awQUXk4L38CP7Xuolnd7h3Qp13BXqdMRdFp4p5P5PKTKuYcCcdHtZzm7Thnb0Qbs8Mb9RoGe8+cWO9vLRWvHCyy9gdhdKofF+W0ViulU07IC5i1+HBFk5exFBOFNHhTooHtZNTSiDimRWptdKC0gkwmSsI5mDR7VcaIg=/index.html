@@ -1,0 +1,306 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head id="j_idt2"><link type="text/css" rel="stylesheet" href="/nims/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/nims/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=8.0" /><script type="text/javascript" src="/nims/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/nims/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/nims/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=8.0"></script><script type="text/javascript" src="/nims/javax.faces.resource/primefaces-extensions.js.xhtml?ln=primefaces-extensions&amp;v=8.0.4"></script><link type="text/css" rel="stylesheet" href="/nims/javax.faces.resource/blockui/blockui.css.xhtml?ln=primefaces-extensions&amp;v=8.0.4" /><script type="text/javascript" src="/nims/javax.faces.resource/blockui/blockui.js.xhtml?ln=primefaces-extensions&amp;v=8.0.4"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script><title>Immunization Program</title>
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="color1.css" id="colors"> </link>
+	<link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <link rel="stylesheet" type="text/css" href="primefaces.css" />
+    <link rel="stylesheet" type="text/css" href="rtloverride.css" />
+    <link rel="stylesheet" type="text/css" href="nastaleeq.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="captcha.css" />
+    <link rel="stylesheet" type="text/css" href="nims.css" />
+
+    <!-- Favicon and touch icons  -->
+    <link href="/nims/images/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" />
+    <link href="/nims/images/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed" />
+    <link href="head.png" rel="shortcut icon" />
+	
+    <noscript>
+       <meta http-equiv="refresh" content="0;noJS.xhtml" />
+	</noscript>
+	<script type="text/javascript" src="js/nims.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head><body>
+	<div class="boxed">
+	
+	<style type="text/css">
+		.preview__header {
+			font-size: 12px;
+			min-height: 35px;
+			background-color: #44aa68;
+			z-index: 100;
+			color: #fff;
+		}
+		
+		@media (max-width: 767px) {
+			.banner-hide-xs {
+				display: none !important;
+			}
+		}
+	</style>
+	
+	<div id="connectionLostDiv" style="height:100%; width:100%; position:fixed; opacity:0.9; background-color:#B6B6B4; top:0px; left:0px; margin:0px; z-index:2000; vertical-align:middle; text-align:center; display: none;">
+		<div id="connectionLostMessage" style="height:50%; width:50%; position:fixed; color:#000; top:25%; left:25%; margin:0px; z-index:3000; vertical-align:middle; text-align:center; font-size: 32px;">
+				<img src="/nims/images/connecting.gif" /> <br /><br />
+				<span>Connection Lost. Trying to reconnect...</span> 
+		</div>
+	</div>
+	
+	
+	
+	<!-- &lt;div class="row" style="height: 6px;background-color: #bf191e;"&gt;&lt;/div&gt; -->
+<form id="j_idt9" name="j_idt9" method="post" action="https://nims.nadra.gov.pk/nims/registration" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt9" value="j_idt9" />
+<script type="text/javascript" src="/nims/javax.faces.resource/jsf.js.xhtml?ln=javax.faces"></script><a href="https://nims.nadra.gov.pk/nims/registration" onclick="mojarra.jsfcljs(document.getElementById('j_idt9'),{'j_idt9:j_idt10':'j_idt9:j_idt10'},'');return false">
+			<section class="ct-u-paddingBottom10 auct-banner ct-u-maxheight480-xs ct-u-maxheight380-sm"> 
+				<div class="container ct-u-paddingBottom50">
+					<div class="ct-u-displayTableVertical ct-u-marginBottom10 ct-u-marginTop10 ct-u-marginTop60-xs">
+						<div class="ct-u-displayTableCell col-md-7 col-lg-5" style="min-height:178px;">
+						</div>
+					</div>
+				</div>
+			</section></a><input type="hidden" name="javax.faces.ViewState" value="aMs5vaI7jeMe6ehxdZfg8vC9sz2vKw1FbvPUmpyCTttc5968A5zSwfVZNsK4nowNxyY4o9gNlRSqgq/I8mxm3AQR4PRY9IjwUO8O3OIQVnpIZYyOQvDtBXvoAPCTxMsznrdps8oTUfT+rQE+BLyKJzmjiakFTkmwOBTGrCen+9jL8u7XqclA3Ik5M382zTMTIemFHzNqslyJLmLWHPo2esRobswDaJK7I++lCoGcDMIYT7JsRfuur8Y8od1b/0kQ+iaIOS54N2p5sHWW+e8Tr2WYjVtJLX8ePi1HpAO34rh9YVpHNnFgrziq3z1Ep5vr1mWE/Dor4jf0skNkLQMWhiebQ6wiLuyUOUMV13ROV1HNid283s4MB4hIpBjFv0qil22N6ltSzpwJChxcQPa8DluVy73aNLhvRD/jpmEPtLe2CIbfmH9L3xgAlboB54X/FDLyrvZ/imvbXkOdcy0NYnoN/Wu9YI4mrLhF3VMlPPhPLOoQYC9Oah/4kKEYW9vPUbk0aXAQ+qj62jAgBj2e1aRcQdP6qLr/yue5QbF+ik2ub+gLYmlP/wSxbbhLGNsy" />
+</form>
+	
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<a href="https://play.google.com/store/apps/details?id=pk.gov.nadra.nims.certificate" target="_blank"><img src="google_play.png" />
+			</a>
+			
+			<a href="https://apps.apple.com/us/app/pak-covid-19-vaccination-pass/id1568161682" target="_blank"><img src="ios_app_icon.png" />
+			</a>
+		</div>
+	</div>
+			
+		<section class="flat-row pd-contact-v2 ct-u-marginTop30">
+			<div class="container">
+				<div class="row">
+<form id="loginForm" name="loginForm" method="post" action="https://nims.nadra.gov.pk/nims/registration" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="loginForm" value="loginForm" />
+
+						<div id="login-block" class="col-md-12">
+							<article class="post style2">
+								<div class="content-post">
+									<h1 class="text-center" style="padding: 5px;color: #ce1421;">Vaccination Information
+									</h1>
+									<hr />
+										<div class="row ct-u-marginTop20">
+											<div class="col-md-12">
+												<div class="form-group row">
+													<div class="col-md-6 col-sm-6 col-xs-12 ct-u-label">
+														<label class="black">Citizen Name:</label>
+													</div>
+												    <div class="col-md-6 col-sm-6 col-xs-12 ct-u-info">Shahid Mehmood
+												    </div>
+												 </div>
+											</div>
+										</div>
+										
+										<div class="row ct-u-marginTop10">
+											<div class="col-md-12">
+												<div class="form-group row">
+													<div class="col-md-6 col-sm-6 col-xs-12 ct-u-label">
+														<label class="black">Certificate No:</label>
+													</div>
+												    <div class="col-md-6 col-sm-6 col-xs-12 ct-u-info">RA4151256313
+												    </div>
+												 </div>
+											</div>
+										</div>
+										
+										<div class="row ct-u-marginTop10">
+											<div class="col-md-12">
+												<div class="form-group row">
+													<div class="col-md-6 col-sm-6 col-xs-12 ct-u-label">
+														<label class="black">Citizen Number:</label>
+													</div>
+												    <div class="col-md-6 col-sm-6 col-xs-12 ct-u-info">4230107154229
+												    </div>
+												 </div>
+											</div>
+										</div>
+										
+										<div class="row ct-u-marginTop10">
+											<div class="col-md-12">
+												<div class="form-group row">
+													<div class="col-md-6 col-sm-6 col-xs-12 ct-u-label">
+														<label class="black">Passport Number:</label>
+													</div>
+												    <div class="col-md-6 col-sm-6 col-xs-12 ct-u-info">N/A
+												    </div>
+												 </div>
+											</div>
+										</div>
+										
+										<div class="row ct-u-marginTop20">
+											<div class="col-md-12">
+												<div class="table-responsive">
+													<table class="table table-bordered text-center">
+														<thead>
+															<tr>
+																<th class="text-center"><label class="black col-form-label">Vaccine Administered</label></th>
+																<th class="text-center"><label class="black col-form-label">Health Unit</label></th>
+																<th class="text-center"><label class="black col-form-label">Dose</label></th>
+																<th class="text-center"><label class="black col-form-label">Dose Date</label></th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td>Pfizer-BioNTech</td>
+																	<td>DHO Office</td>
+																	<td>1</td>
+																	<td>13-10-2021</td>
+																</tr>
+																<tr>
+																	<td>Pfizer-BioNTech</td>
+																	<td>DHO Office</td>
+																	<td>2</td>
+																	<td>18-11-2021</td>
+																</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									<div class="row text-center"><input type="submit" name="loginForm:j_idt45" value="Back to Home" style="margin-top:30px;color:#fff;" tabindex="1" class="btn btn-lg btn-success" onclick="PF('blockUIWidget').block()" />
+									</div>
+									<br /><div id="loginForm:j_idt47_content" style="display: none;"><table>
+<tbody>
+<tr>
+<td><img src="/nims/images/ajax-loading.gif" style="margin-right: 12px; vertical-align: middle;" /></td>
+<td><span style="white-space: nowrap;">Please wait...</span></td>
+</tr>
+</tbody>
+</table>
+</div><script id="loginForm:j_idt47_s" type="text/javascript">$(function(){PrimeFaces.cw("ExtBlockUI","blockUIWidget",{id:"loginForm:j_idt47",source:"loginForm",autoShow:false,focusInput:true,showOverlay:true,centerX:true,centerY:true,fadeIn:200,fadeOut:400,content:"#loginForm\\:j_idt47_content",contentExtern:false,namingContSep:":",regEx:/javax.faces.source=loginForm(.)*$/});});</script>
+								</div>
+								<!-- /.content-post --> 
+							</article>
+						<!-- /.post -->
+						</div><input type="hidden" name="javax.faces.ViewState" value="KjfcaiSLdi+jFoOfCn9ZDxBpeRYXuW8i9mlRJVPUVYvG1Md0lyUewHvTCcKOc86YJ+bE/giofQ4mfIFZxSk8tsFPWk01WWfZ++GJCPUmhE0k97B2sfkW9+4Bv77XXPBd/seCNowrNONN6H96Wy+3xWpw8vqgdsDN+iY9jk6UhP3UE8jMARrNxFGTi5hu/a9CfNRPxnrUxi33qiAycyvoT9v99By5ScSHfnu9RVrHPtp9o2WD3JS5FZCstVdQW9euG+meEqTM47lv15GLElqYOw6oWo8qvn6Fut579g7QAD8PWOzV+xV/g+hK9hFIqNecL+BcsPfZG/ID3GjLpmX9Zd4ggE+NNgwG+2Su++A3Zqtb/2yVXsfolYVMJONQr3wgIuILiGIIHdU7c/V0lkOQfKU186qU+NEJfHR8rPn6oum26xujuow4ynffsSu/798hBlhGN/Tz5YYuHRqV0+OIT31gYvR1bZLcXEMKENDPomQ9jga3f6B8mBPgo+bTo2jJ7VO4pXrB2TQOFGcF6L4E7KnCLmhTpkS3Dm2Rsu5r8mXAKcPqZz3NcP0ycKtJDYZp" />
+</form>
+
+				</div>
+				<!-- /.row -->
+				
+			</div>
+			<!-- /.container --> 
+			</section>
+			<!-- /.flat-row-iconbox -->
+
+		</div>
+
+<footer>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="text-center">
+						<p class="urdufooter" style="width: 100%;font-size:18px !important; color: #333;">
+							Copyright 2021 Ministry of Health. All rights reserved.
+						</p>
+					</div>
+				<!-- /.menu-footer -->
+				</div>
+			</div>
+		</div>
+	</div><!-- /.footer-bottom -->
+</footer><!-- /#footer -->
+<div class="button-go-top">
+	<a href="#" title="" class="go-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+</div>
+
+	<!-- Javascript 
+	
+    &lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;-->
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="/nims/js/waypoints.min.js"></script>
+    
+    <script type="text/javascript" src="nims/js/main/.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+	<script type="text/javascript" src="/nims/js/validations.js"></script>
+	<script type="text/javascript" src="/nims/js/captcha.js"></script>
+	
+	<style>
+			.LBD_SoundIcon{
+				display:none!important;
+			}
+			#exampleCaptcha{
+				max-height: auto !important;
+				max-width: auto !important;
+			}
+			div .LBD_CaptchaImageDiv{
+				max-height: auto !important;
+				max-width: auto !important;
+				/*margin-left: -13px !important;*/
+			}
+			
+			div #exampleCaptcha_CaptchaImageDiv{
+				max-height: auto!important;
+				max-width: auto!important;
+			}
+			
+			div .LBD_CaptchaDiv{
+				max-height: auto !important;
+				max-width: auto !important;
+			    
+			}
+			@media (max-width: 575px) {
+				.LBD_CaptchaDiv{
+					max-height: auto !important;
+					max-width: auto !important;
+					margin-bottom: 60px !important
+				}
+				div .LBD_CaptchaImageDiv{
+					max-height: auto !important;
+					max-width: auto !important;
+					margin-left: -26px !important;
+				}
+			}
+			.LBD_CaptchaImageDiv a a:link{
+				display: none!important;
+			}
+			
+		</style>
+		<script>
+			(function($) {
+				$( "#exampleCaptcha a .LBD_SoundIcon" ).remove();
+				
+				$(".toggle-password").click(function() {
+	
+				  $(this).toggleClass("fa-eye-slash fa-eye");
+				  var input = $($(this).attr("toggle"));
+				  if (input.attr("type") == "password") {
+				    input.attr("type", "text");
+				  } else {
+				    input.attr("type", "password");
+				  }
+				});
+			});
+			
+		</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=G-TZ5853B9KG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-TZ5853B9KG');
+	</script></body>
+</html>
